@@ -9,10 +9,10 @@ class Test{
       const SET_FIRST_INDEX = 'SET_FIRST_INDEX';
       const DELETE_FIRST_INDEX = 'DELETE_FIRST_INDEX';
       const PHP_EOL = PHP_EOL;
-      public  $startNumber;
-      public  $endNumber;
-      public  $arrayCount;
-      public  $array = [];
+      public int $startNumber;
+      public int $endNumber;
+      public int $arrayCount;
+      public Array $array = [];
       public $startTime;
       public $endTime;
 
